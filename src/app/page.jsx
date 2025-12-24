@@ -9,6 +9,8 @@ import HappyBirthday from "./components/HappyBirthday"
 import PhotoGallery from "./components/PhotoGallery"
 import Letter from "./components/Letter"
 import { motion } from "motion/react"
+import MusicButton from "@/components/MusicButton";
+
 
 export default function BirthdayApp() {
   const [currentScreen, setCurrentScreen] = useState(0)
@@ -23,9 +25,6 @@ export default function BirthdayApp() {
     }, 4000)
     return () => clearTimeout(timer)
   }, [])
-
-  import MusicButton from "@/components/MusicButton";
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
