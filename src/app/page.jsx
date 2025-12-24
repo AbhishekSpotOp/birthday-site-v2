@@ -24,6 +24,20 @@ export default function BirthdayApp() {
     return () => clearTimeout(timer)
   }, [])
 
+  import MusicButton from "@/components/MusicButton";
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        {children}
+        <MusicButton />
+      </body>
+    </html>
+  );
+}
+
+
   const screens = [
     !isBirthdayOver
       ? <Countdown key="countdown" onComplete={() => setisBirthdayOver(true)} birthdayDate={birthdayDate} />
