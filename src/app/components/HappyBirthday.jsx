@@ -247,7 +247,7 @@ export default function HappyBirthday({ onNext }) {
                     className="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 hover:from-pink-500 hover:via-purple-500 hover:to-indigo-500 text-white text-xl px-8 py-4 rounded-full shadow-xl border-2 border-white/70 transition-all duration-300 hover:scale-[103%]"
                 >
                     <motion.div className="flex items-center space-x-2" whileHover={{ x: 5 }}>
-                        <span>See Our Moments</span>
+                        <span>next....</span>
                         <ArrowRight className="w-6 h-6" />
                     </motion.div>
                 </button>
