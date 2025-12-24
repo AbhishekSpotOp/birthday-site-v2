@@ -1,5 +1,5 @@
 import "./globals.css";
-import MusicButton from "@/src/components/MusicButton";
+import MusicButton from "@/src/components/MusicButton.jsx";
 
 
 export const metadata = {
