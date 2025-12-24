@@ -7,21 +7,32 @@ export default function MusicButton() {
   const audioRef = useRef(null);
   const [playing, setPlaying] = useState(false);
 
-  const toggleMusic = () => {
-    if (!audioRef.current) return;
+  const toggleMusic = async () => {
+    const audio = audioRef.current;
+    if (!audio) return;
 
-    if (playing) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
+    try {
+      if (playing) {
+        audio.pause();
+        setPlaying(false);
+      } else {
+        audio.volume = 0.6;          // prevent loud start
+        await audio.play();          // await fixes silent failures
+        setPlaying(true);
+      }
+    } catch (err) {
+      console.error("Audio play blocked:", err);
     }
-
-    setPlaying(!playing);
   };
 
   return (
     <>
-      <audio ref={audioRef} src="/song.mp3" loop />
+      <audio
+        ref={audioRef}
+        src="/song.mp3"
+        preload="auto"
+        playsInline
+      />
 
       <button
         onClick={toggleMusic}
@@ -31,8 +42,7 @@ export default function MusicButton() {
           bg-pink-500 hover:bg-pink-600
           text-white shadow-lg
           flex items-center justify-center
-          transition-all duration-300
-          animate-pulse
+          transition-all
         "
         aria-label="Toggle music"
       >
