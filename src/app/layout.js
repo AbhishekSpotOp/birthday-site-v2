@@ -1,6 +1,5 @@
 import "./globals.css";
-import MusicButton from "@/src/components/MusicButton.jsx";
-
+import MusicButton from "@/components/MusicButton";
 
 export const metadata = {
   title: "Happy Birthday!",
@@ -18,3 +17,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
