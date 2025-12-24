@@ -1,4 +1,5 @@
 import "./globals.css";
+import MusicButton from "@/components/MusicButton";
 
 export const metadata = {
   title: "Happy Birthday!",
