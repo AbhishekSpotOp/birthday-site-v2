@@ -9,7 +9,6 @@ import HappyBirthday from "./components/HappyBirthday"
 import PhotoGallery from "./components/PhotoGallery"
 import Letter from "./components/Letter"
 import { motion } from "motion/react"
-import MusicButton from "@/components/MusicButton";
 
 
 export default function BirthdayApp() {
