@@ -24,16 +24,6 @@ export default function BirthdayApp() {
     }, 4000)
     return () => clearTimeout(timer)
   }, [])
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>
-        {children}
-        <MusicButton />
-      </body>
-    </html>
-  );
-}
 
 
   const screens = [
