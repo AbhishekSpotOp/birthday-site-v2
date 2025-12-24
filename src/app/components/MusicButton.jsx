@@ -16,33 +16,29 @@ export default function MusicButton() {
         audio.pause();
         setPlaying(false);
       } else {
-        audio.volume = 0.6;          // prevent loud start
-        await audio.play();          // await fixes silent failures
+        audio.volume = 0.6;
+        await audio.play();
         setPlaying(true);
       }
-    } catch (err) {
-      console.error("Audio play blocked:", err);
+    } catch (e) {
+      console.log("Audio blocked:", e);
     }
   };
 
   return (
     <>
-      <audio
-        ref={audioRef}
-        src="/song.mp3"
-        preload="auto"
-        playsInline
-      />
+      <audio ref={audioRef} src="/song.mp3" preload="auto" playsInline />
 
       <button
         onClick={toggleMusic}
+        style={{ pointerEvents: "auto" }}
         className="
           fixed bottom-6 right-6
           h-14 w-14 rounded-full
           bg-pink-500 hover:bg-pink-600
           text-white shadow-lg
           flex items-center justify-center
-          transition-all
+          z-[9999]
         "
         aria-label="Toggle music"
       >
