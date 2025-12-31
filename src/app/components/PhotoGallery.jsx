@@ -19,7 +19,7 @@ export default function PhotoGallery({ onNext }) {
 
     return (
         <motion.div
-            className="min-h-screen flex flex-col items-center justify-center p-8 relative overflow-hidden"
+            className="min-h-screen flex flex-col items-center justify-center p-8 relative"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, scale: 0.8 }}
