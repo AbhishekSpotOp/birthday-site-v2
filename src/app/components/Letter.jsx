@@ -19,6 +19,16 @@ You have this amazing ability to light up any room you enter, to make people smi
 
 Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
 
+Even though our conversations have become so rare these days, I still feel everything the same way. There was a time when we couldn’t go a single day without talking for three hours straight, and now sometimes we don’t even talk for three minutes in a day. Life changed, time changed—but my feelings for you never did.
+
+I still remember those late-night conversations, the endless jokes, the laughter, the fun moments we shared, and the comfort we found in each other. Those memories are still alive in my heart, no matter how quiet things have become now.
+
+And after all of this, you are still my favourite person. You are still the first thought that comes to my mind when I wake up in the morning, and the last thought before I fall asleep at night. There has never been a single moment when I haven’t thought about you.
+
+No matter how much time passes or how less we talk, you will always hold a special place in my life that no one else can replace.
+
+I hope this birthday brings you happiness, peace, and everything your heart truly deserves. I’m always silently cheering for you, always wishing the best for you.
+
 Happy Birthday, beautiful soul! 🎂✨
 
 With all my love and warmest wishes,
