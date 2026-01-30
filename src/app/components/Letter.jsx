@@ -19,7 +19,7 @@ You have this amazing ability to light up any room you enter, to make people smi
 
 Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
 
-Even though our conversations have become so rare these days, I still feel everything the same way. There was a time when we couldn’t go a single day without talking for three hours straight, and now sometimes we don’t even talk for three minutes in a day. Life changed, time changed—but my feelings for you never did.
+I know we haven't talked in a while, and life has a way of getting busy, but I still look back on the times we spoke every day with so much gratitude. Some friendships are god-gifted, and I truly think ours is one of them. No matter how much time passes or how much space there is between us, that doesn't change.
 
 I still remember those late-night conversations, the endless jokes, the laughter, the fun moments we shared, and the comfort we found in each other. Those memories are still alive in my heart, no matter how quiet things have become now.
 
